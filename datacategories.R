@@ -49,3 +49,71 @@ bournemouth_chelsea <- data16[304, ]
 bournemouth_middlesbrough <- data16[324, ]
 bournemouth_stoke <- data16[346, ]
 bournemouth_burnley <- data16[358, ] # data16
+
+# DATA SORTING: Burnley
+burnley_swansea <- data16[1, ]
+burnley_liverpool <- data16[12, ]
+burnley_hull <- data16[33, ]
+burnley_watford <- data16[60, ]
+burnley_arsenal <- data16[67, ]
+burnley_everton <- data16[83, ]
+burnley_crystalpalace <- data16[102, ]
+burnley_mancity <- data16[121, ]
+burnley_bournemouth <- data16[142, ]
+burnley_middlesbrough <- data16[172, ]
+burnley_sunderland <- data16[182, ]
+burnley_southampton <- data16[201, ]
+burnley_leicester <- data16[223, ]
+burnley_chelsea <- data16[248, ]
+burnley_tottenham <- data16[284, ]
+burnley_stoke <- data16[294, ]
+burnley_manunited <- data16[328, ]
+burnley_westbrom <- data16[347, ]
+burnley_westham <- data16[372, ] # data16
+
+# DATA SORTING: Chealsea
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
