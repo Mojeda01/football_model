@@ -72,48 +72,24 @@ burnley_westbrom <- data16[347, ]
 burnley_westham <- data16[372, ] # data16
 
 # DATA SORTING: Chealsea
+chelsea_westham <- data16[10, ]
+chelsea_burnley <- data16[21, ]
+chelsea_liverpool <- data16[41, ]
+chelsea_leicester <- data16[73, ]
+chelsea_manunited <- data16[89, ]
+chelsea_everton <- data16[103, ]
+chelsea_tottenham <- data16[122, ]
+chelsea_westbrom <- data16[147, ]
+chelsea_bournemouth <- data16[173, ]
+chelsea_stoke <- data16[183, ]
+chelsea_hull <- data16[219, ]
+chelsea_arsenal <- data16[231, ]
+chelsea_swansea <- data16[251, ]
+chelsea_crystalpalace <- data16[285, ]
+chelsea_mancity <- data16[299, ]
+chelsea_southampton <- data16[330, ]
+chelsea_middlesbrough <- data16[354, ]
+chelsea_watford <- data16[366, ]
+chelsea_sunderland <- data16[373, ] #data16
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# DATA SORTING: Crystal Palace
