@@ -154,3 +154,25 @@ hull_middlesbrough <- data16[300, ]
 hull_watford <- data16[325, ]
 hull_sunderland <- data16[348, ]
 hull_tottenham <- data16[374, ] #data16
+
+# DATA SORTING: Leicester
+leicester_arsenal <- data16[13, ]
+leicester_swansea <- data16[25, ]
+leicester_burnley <- data16[44, ]
+leicester_southampton <- data16[68, ]
+leicester_crystalpalace <- data16[85, ]
+leicester_westbrom <- data16[108, ]
+leicester_middlesbrough <- data16[124, ]
+leicester_mancity <- data16[144, ]
+leicester_everton <- data16[175, ]
+leicester_westham <- data16[184, ]
+leicester_chelsea <- data16[203, ]
+leicester_manunited <- data16[239, ]
+leicester_liverpool <- data16[258, ]
+leicester_hull <- data16[259, ]
+leicester_stoke <- data16[287, ]
+leicester_sunderland <- data16[295, ]
+leicester_watford <- data16[349, ]
+leicester_tottenham <- data16[370, ]
+leicester_bournemouth <- data16[375, ] #data16
+
