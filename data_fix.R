@@ -13,3 +13,6 @@ combined_seasons <- bind_rows(season_list)
 str(combined_seasons)
 
 # If needed, you can now proceed with data analysis on the combined data frame
+
+
+write.csv(combined_seasons, "season2016-2023.csv")
