@@ -1,7 +1,13 @@
 
 # Initiate the dataset
-data <- season2016
-data2 <- season2016_2023
+data16 <- season2016
+data17 <- season2017
+data18 <- season2018
+data19 <- season2019
+data20 <- season2020
+data21 <- season2021
+data22 <- season2022
+data23 <- season2023
 
 # Modified function to check for arbitrage opportunities
 check_arbitrage <- function(B365H, B365D, B365A, BWH, BWD, BWA, IWH, IWD, IWA, LBH, LBD, LBA, PSH, PSD, PSA, WHH, WHD, WHA, VCH, VCD, VCA) {
@@ -30,12 +36,45 @@ check_arbitrage <- function(B365H, B365D, B365A, BWH, BWD, BWA, IWH, IWD, IWA, L
 }
 
 # Apply the function to each row in the dataset
-arbitrage_vector <- apply(data, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+arbitrage16 <- apply(data16, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
                                                                x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
                                                                x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
                                                                x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
-# Print the result
-print(arbitrage_vector)
 
-# Put it in dataframe
-arbitrageDF <- data.frame(arbitrage_vector)
+arbitrage17 <- apply(data17, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage18 <- apply(data18, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage19 <- apply(data19, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage20 <- apply(data20, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage21 <- apply(data21, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage22 <- apply(data22, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitrage23 <- apply(data23, 1, function(x) check_arbitrage(x['B365H'], x['B365D'], x['B365A'], 
+                                                            x['BWH'], x['BWD'], x['BWA'], x['IWH'], x['IWD'], x['IWA'], 
+                                                            x['LBH'], x['LBD'], x['LBA'], x['PSH'], x['PSD'], x['PSA'], 
+                                                            x['WHH'], x['WHD'], x['WHA'], x['VCH'], x['VCD'], x['VCA']))
+
+arbitragedataframe1621 <- data.frame(arbitrage16, arbitrage17, arbitrage18, arbitrage19, arbitrage20, arbitrage21)
+arbitragedataframe2223 <- data.frame(arbitrage22, arbitrage23)
